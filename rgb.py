@@ -33,7 +33,5 @@ def setRGBColor(color):
 
 bus.write_byte_data(addr, rgb_off_reg, 0x00)
 time.sleep(1)
-while True:
-     setRGBEffect(3)
-     time.sleep(0.1)
+
      
