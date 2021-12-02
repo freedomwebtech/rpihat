@@ -49,7 +49,7 @@ draw = ImageDraw.Draw(image)
 # Draw a white background
 draw.rectangle((0, 0, oled.width, oled.height), outline=0, fill=0)
 
-font = ImageFont.truetype('PixelOperator.ttf', 16)
+font = ImageFont.truetype('/home/pi/rpihat/PixelOperator.ttf', 16)
 #font = ImageFont.load_default()
 
 def dis():
