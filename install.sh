@@ -1,3 +1,4 @@
+sudo rm -rf  /var/lib/apt/lists/lock
 sudo apt update -y
 sudo apt full-upgrade -y
 sudo pip3 install --upgrade setuptools
